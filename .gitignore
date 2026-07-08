@@ -1,0 +1,20 @@
+# Local Environment Configuration (CRITICAL - Keeps your Groq/Azure keys secure)
+.env
+
+# Python Virtual Environment
+bin/
+lib/
+include/
+pyvenv.cfg
+*.pyc
+__pycache__/
+
+#Unnecessary Data
+data/
+
+# Node/React Dependencies 
+node_modules/
+dist/
+
+# macOS System Files
+.DS_Store
